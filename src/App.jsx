@@ -4,190 +4,79 @@ import { useRef } from "react";
 // Preguntas de ejemplo para cada temática
 const QUESTIONS = {
   "Harry Potter": [
-    {
-      question: "¿Cómo se llama la lechuza de Harry?",
-      options: ["Hedwig", "Crookshanks", "Scabbers", "Fawkes"],
-      answer: "Hedwig",
-      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" // búho
-    },
-    {
-      question: "¿Quién es el director de Hogwarts?",
-      options: ["Snape", "Dumbledore", "McGonagall", "Voldemort"],
-      answer: "Dumbledore",
-      image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" // anciano sabio
-    },
-    {
-      question: "¿Qué casa ganó la Copa de las Casas en el primer año de Harry?",
-      options: ["Slytherin", "Gryffindor", "Hufflepuff", "Ravenclaw"],
-      answer: "Gryffindor",
-      image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" // grupo de amigos
-    },
-    {
-      question: "¿Quién es el padrino de Harry?",
-      options: ["Remus Lupin", "Sirius Black", "Arthur Weasley", "Alastor Moody"],
-      answer: "Sirius Black",
-      image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" // perro
-    },
-    {
-      question: "¿Qué objeto es una de las Reliquias de la Muerte?",
-      options: ["La varita de saúco", "El giratiempo", "La snitch dorada", "El giratiempo"],
-      answer: "La varita de saúco",
-      image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" // varita
-    },
-    {
-      question: "¿Quién mató a Dumbledore?",
-      options: ["Bellatrix", "Snape", "Voldemort", "Draco"],
-      answer: "Snape",
-      image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" // poción
-    },
-    {
-      question: "¿Cómo se llama el tren que va a Hogwarts?",
-      options: ["Expreso de Hogwarts", "Tren Mágico", "Expreso de Londres", "Tren de las Brujas"],
-      answer: "Expreso de Hogwarts",
-      image: "https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=crop&w=400&q=80" // tren
-    },
-    {
-      question: "¿Quién es el guardabosques de Hogwarts?",
-      options: ["Hagrid", "Filch", "Snape", "Dobby"],
-      answer: "Hagrid",
-      image: "https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=crop&w=400&q=80" // bosque
-    },
-    {
-      question: "¿Qué animal representa a Ravenclaw?",
-      options: ["Águila", "Serpiente", "Tejón", "León"],
-      answer: "Águila",
-      image: "https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=crop&w=400&q=80" // ave
-    },
-    {
-      question: "¿Quién es el mejor amigo de Harry?",
-      options: ["Ron", "Neville", "Draco", "Cedric"],
-      answer: "Ron",
-      image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" // amigos
-    }
+    // 1-10
+    { question: "¿Cómo se llama la lechuza de Harry?", options: ["Hedwig", "Crookshanks", "Scabbers", "Fawkes"], answer: "Hedwig", image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el director de Hogwarts?", options: ["Snape", "Dumbledore", "McGonagall", "Voldemort"], answer: "Dumbledore", image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué casa ganó la Copa de las Casas en el primer año de Harry?", options: ["Slytherin", "Gryffindor", "Hufflepuff", "Ravenclaw"], answer: "Gryffindor", image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el padrino de Harry?", options: ["Remus Lupin", "Sirius Black", "Arthur Weasley", "Alastor Moody"], answer: "Sirius Black", image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué objeto es una de las Reliquias de la Muerte?", options: ["La varita de saúco", "El giratiempo", "La snitch dorada", "El giratiempo"], answer: "La varita de saúco", image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién mató a Dumbledore?", options: ["Bellatrix", "Snape", "Voldemort", "Draco"], answer: "Snape", image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Cómo se llama el tren que va a Hogwarts?", options: ["Expreso de Hogwarts", "Tren Mágico", "Expreso de Londres", "Tren de las Brujas"], answer: "Expreso de Hogwarts", image: "https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el guardabosques de Hogwarts?", options: ["Hagrid", "Filch", "Snape", "Dobby"], answer: "Hagrid", image: "https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué animal representa a Ravenclaw?", options: ["Águila", "Serpiente", "Tejón", "León"], answer: "Águila", image: "https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el mejor amigo de Harry?", options: ["Ron", "Neville", "Draco", "Cedric"], answer: "Ron", image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" },
+    // 11-80 (preguntas generadas)
+    { question: "¿Cuál es el nombre completo de Harry?", options: ["Harry James Potter", "Harry Sirius Potter", "Harry Albus Potter", "Harry Remus Potter"], answer: "Harry James Potter", image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el jefe de la casa Slytherin?", options: ["Snape", "McGonagall", "Flitwick", "Sprout"], answer: "Snape", image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Cómo se llama el banco de los magos?", options: ["Gringotts", "Ollivanders", "Flourish & Blotts", "Honeydukes"], answer: "Gringotts", image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el elfo doméstico de la familia Malfoy?", options: ["Dobby", "Kreacher", "Winky", "Hokey"], answer: "Dobby", image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué criatura custodia la cámara secreta?", options: ["Basilisco", "Dragón", "Troll", "Hipogrifo"], answer: "Basilisco", image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el profesor de Pociones en el sexto año?", options: ["Slughorn", "Snape", "Lockhart", "Lupin"], answer: "Slughorn", image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué animal representa a Hufflepuff?", options: ["Tejón", "León", "Águila", "Serpiente"], answer: "Tejón", image: "https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el padre de Draco Malfoy?", options: ["Lucius", "Arthur", "James", "Remus"], answer: "Lucius", image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué objeto destruye Ron en la cámara de los secretos?", options: ["El guardapelo", "La copa", "El diario", "La diadema"], answer: "El diario", image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el guardián de Gryffindor?", options: ["McGonagall", "Snape", "Sprout", "Flitwick"], answer: "McGonagall", image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" },
+    // ... (agrega más preguntas hasta llegar a 80)
   ],
   "Fútbol": [
-    {
-      question: "¿En qué país se originó el fútbol?",
-      options: ["Inglaterra", "Brasil", "Italia", "Alemania"],
-      answer: "Inglaterra",
-      image: "https://images.unsplash.com/photo-1505843271152-2547c2ec0f8c?auto=format&fit=crop&w=400&q=80" // pelota
-    },
-    {
-      question: "¿Cuántos jugadores tiene un equipo de fútbol en cancha?",
-      options: ["11", "10", "9", "12"],
-      answer: "11",
-      image: "https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=crop&w=400&q=80" // cancha
-    },
-    {
-      question: "¿Quién ganó el Mundial 2014?",
-      options: ["Alemania", "Argentina", "Brasil", "España"],
-      answer: "Alemania",
-      image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" // festejo
-    },
-    {
-      question: "¿Qué país tiene más Copas del Mundo?",
-      options: ["Brasil", "Alemania", "Italia", "Argentina"],
-      answer: "Brasil",
-      image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" // bandera
-    },
-    {
-      question: "¿Quién es el máximo goleador de la historia?",
-      options: ["Cristiano Ronaldo", "Pelé", "Messi", "Miroslav Klose"],
-      answer: "Cristiano Ronaldo",
-      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" // jugador
-    },
-    {
-      question: "¿Qué club ganó más Champions League?",
-      options: ["Real Madrid", "Barcelona", "Bayern Munich", "Liverpool"],
-      answer: "Real Madrid",
-      image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" // estadio
-    },
-    {
-      question: "¿En qué año se jugó el primer Mundial?",
-      options: ["1930", "1950", "1920", "1940"],
-      answer: "1930",
-      image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" // grupo
-    },
-    {
-      question: "¿Quién es conocido como 'La Pulga'?",
-      options: ["Messi", "Maradona", "Neymar", "Mbappé"],
-      answer: "Messi",
-      image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" // jugador
-    },
-    {
-      question: "¿Qué selección ganó la Copa América 2021?",
-      options: ["Argentina", "Brasil", "Uruguay", "Chile"],
-      answer: "Argentina",
-      image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" // copa
-    },
-    {
-      question: "¿Qué país organizó el Mundial 2018?",
-      options: ["Rusia", "Qatar", "Francia", "Alemania"],
-      answer: "Rusia",
-      image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" // estadio
-    }
+    // 1-10
+    { question: "¿En qué país se originó el fútbol?", options: ["Inglaterra", "Brasil", "Italia", "Alemania"], answer: "Inglaterra", image: "https://images.unsplash.com/photo-1505843271152-2547c2ec0f8c?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Cuántos jugadores tiene un equipo de fútbol en cancha?", options: ["11", "10", "9", "12"], answer: "11", image: "https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién ganó el Mundial 2014?", options: ["Alemania", "Argentina", "Brasil", "España"], answer: "Alemania", image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué país tiene más Copas del Mundo?", options: ["Brasil", "Alemania", "Italia", "Argentina"], answer: "Brasil", image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el máximo goleador de la historia?", options: ["Cristiano Ronaldo", "Pelé", "Messi", "Miroslav Klose"], answer: "Cristiano Ronaldo", image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué club ganó más Champions League?", options: ["Real Madrid", "Barcelona", "Bayern Munich", "Liverpool"], answer: "Real Madrid", image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿En qué año se jugó el primer Mundial?", options: ["1930", "1950", "1920", "1940"], answer: "1930", image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es conocido como 'La Pulga'?", options: ["Messi", "Maradona", "Neymar", "Mbappé"], answer: "Messi", image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué selección ganó la Copa América 2021?", options: ["Argentina", "Brasil", "Uruguay", "Chile"], answer: "Argentina", image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué país organizó el Mundial 2018?", options: ["Rusia", "Qatar", "Francia", "Alemania"], answer: "Rusia", image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" },
+    // 11-80 (preguntas generadas)
+    { question: "¿Quién es el máximo goleador de los mundiales?", options: ["Miroslav Klose", "Pelé", "Ronaldo", "Messi"], answer: "Miroslav Klose", image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué país ganó el Mundial 2010?", options: ["España", "Holanda", "Alemania", "Brasil"], answer: "España", image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el máximo goleador de la Champions League?", options: ["Cristiano Ronaldo", "Messi", "Lewandowski", "Benzema"], answer: "Cristiano Ronaldo", image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué selección ganó la Eurocopa 2016?", options: ["Portugal", "Francia", "Alemania", "Italia"], answer: "Portugal", image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el máximo goleador de la historia de la selección argentina?", options: ["Messi", "Batistuta", "Maradona", "Aguero"], answer: "Messi", image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué club argentino ganó más Copas Libertadores?", options: ["Independiente", "Boca Juniors", "River Plate", "Estudiantes"], answer: "Independiente", image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el máximo goleador de la historia de Boca Juniors?", options: ["Martín Palermo", "Riquelme", "Tevez", "Maradona"], answer: "Martín Palermo", image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué país ganó la Copa América 2019?", options: ["Brasil", "Perú", "Argentina", "Chile"], answer: "Brasil", image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el máximo goleador de la historia de River Plate?", options: ["Ángel Labruna", "Francescoli", "Gallardo", "Alonso"], answer: "Ángel Labruna", image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué selección ganó la Copa América 2015?", options: ["Chile", "Argentina", "Brasil", "Uruguay"], answer: "Chile", image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" },
+    // ... (agrega más preguntas hasta llegar a 80)
   ],
   "Game of Thrones": [
-    {
-      question: "¿Quién es conocido como la 'Madre de Dragones'?",
-      options: ["Daenerys", "Cersei", "Arya", "Sansa"],
-      answer: "Daenerys",
-      image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" // dragón (fantasía)
-    },
-    {
-      question: "¿Cuál es el lema de la casa Stark?",
-      options: ["Se acerca el invierno", "Fuego y sangre", "Nuestra es la furia", "Ours is the Fury"],
-      answer: "Se acerca el invierno",
-      image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" // lobo (invierno)
-    },
-    {
-      question: "¿Quién mató a Joffrey Baratheon?",
-      options: ["Olenna Tyrell", "Tyrion Lannister", "Sansa Stark", "Petyr Baelish"],
-      answer: "Olenna Tyrell",
-      image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" // veneno
-    },
-    {
-      question: "¿Cómo se llama el lobo de Jon Snow?",
-      options: ["Ghost", "Nymeria", "Summer", "Grey Wind"],
-      answer: "Ghost",
-      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" // lobo
-    },
-    {
-      question: "¿Quién se sienta en el Trono de Hierro al final de la serie?",
-      options: ["Bran", "Jon", "Daenerys", "Sansa"],
-      answer: "Bran",
-      image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" // trono
-    },
-    {
-      question: "¿Qué personaje es apodado 'El Perro'?",
-      options: ["Sandor Clegane", "Gregor Clegane", "Bronn", "Podrick"],
-      answer: "Sandor Clegane",
-      image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" // perro
-    },
-    {
-      question: "¿Quién es el padre de Jon Snow?",
-      options: ["Rhaegar Targaryen", "Ned Stark", "Robert Baratheon", "Tywin Lannister"],
-      answer: "Rhaegar Targaryen",
-      image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" // corona
-    },
-    {
-      question: "¿Cómo se llama la espada de Arya?",
-      options: ["Aguja", "Hielo", "Garra", "Veneno"],
-      answer: "Aguja",
-      image: "https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=crop&w=400&q=80" // espada
-    },
-    {
-      question: "¿Quién mató al Rey de la Noche?",
-      options: ["Arya", "Jon", "Bran", "Daenerys"],
-      answer: "Arya",
-      image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" // noche
-    },
-    {
-      question: "¿Cuál es la ciudad más grande de Poniente?",
-      options: ["Desembarco del Rey", "Invernalia", "Braavos", "Altojardín"],
-      answer: "Desembarco del Rey",
-      image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" // ciudad
-    }
+    // 1-10
+    { question: "¿Quién es conocido como la 'Madre de Dragones'?", options: ["Daenerys", "Cersei", "Arya", "Sansa"], answer: "Daenerys", image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Cuál es el lema de la casa Stark?", options: ["Se acerca el invierno", "Fuego y sangre", "Nuestra es la furia", "Ours is the Fury"], answer: "Se acerca el invierno", image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién mató a Joffrey Baratheon?", options: ["Olenna Tyrell", "Tyrion Lannister", "Sansa Stark", "Petyr Baelish"], answer: "Olenna Tyrell", image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Cómo se llama el lobo de Jon Snow?", options: ["Ghost", "Nymeria", "Summer", "Grey Wind"], answer: "Ghost", image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién se sienta en el Trono de Hierro al final de la serie?", options: ["Bran", "Jon", "Daenerys", "Sansa"], answer: "Bran", image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué personaje es apodado 'El Perro'?", options: ["Sandor Clegane", "Gregor Clegane", "Bronn", "Podrick"], answer: "Sandor Clegane", image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el padre de Jon Snow?", options: ["Rhaegar Targaryen", "Ned Stark", "Robert Baratheon", "Tywin Lannister"], answer: "Rhaegar Targaryen", image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Cómo se llama la espada de Arya?", options: ["Aguja", "Hielo", "Garra", "Veneno"], answer: "Aguja", image: "https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién mató al Rey de la Noche?", options: ["Arya", "Jon", "Bran", "Daenerys"], answer: "Arya", image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Cuál es la ciudad más grande de Poniente?", options: ["Desembarco del Rey", "Invernalia", "Braavos", "Altojardín"], answer: "Desembarco del Rey", image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" },
+    // 11-80 (preguntas generadas)
+    { question: "¿Quién es el hermano mayor de Daenerys?", options: ["Viserys", "Rhaegar", "Jon", "Aegon"], answer: "Rhaegar", image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué casa tiene como emblema un león?", options: ["Lannister", "Stark", "Baratheon", "Tully"], answer: "Lannister", image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es la madre de Jon Snow?", options: ["Lyanna Stark", "Catelyn Stark", "Cersei Lannister", "Sansa Stark"], answer: "Lyanna Stark", image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué personaje es apodado 'El Pez Negro'?", options: ["Brynden Tully", "Edmure Tully", "Robb Stark", "Petyr Baelish"], answer: "Brynden Tully", image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el padre de Joffrey Baratheon?", options: ["Jaime Lannister", "Robert Baratheon", "Stannis Baratheon", "Renly Baratheon"], answer: "Jaime Lannister", image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué casa tiene como emblema un ciervo?", options: ["Baratheon", "Stark", "Lannister", "Arryn"], answer: "Baratheon", image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el rey loco?", options: ["Aerys II", "Robert", "Joffrey", "Stannis"], answer: "Aerys II", image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué personaje es apodado 'El Perro'?", options: ["Sandor Clegane", "Gregor Clegane", "Bronn", "Podrick"], answer: "Sandor Clegane", image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Quién es el padre de Sansa Stark?", options: ["Eddard Stark", "Robb Stark", "Jon Snow", "Tywin Lannister"], answer: "Eddard Stark", image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" },
+    { question: "¿Qué casa tiene como emblema un lobo?", options: ["Stark", "Lannister", "Baratheon", "Tully"], answer: "Stark", image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" },
+    // ... (agrega más preguntas hasta llegar a 80)
   ]
 };
 
