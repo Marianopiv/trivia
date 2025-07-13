@@ -2429,6 +2429,1210 @@ bueno, por ahora estamos bien, ahora quiero que me lo deployees en vercel, hacel
 
 _**Assistant**_
 
+¡Perfecto! Te hago el deploy a Vercel en 2 minutos:
+
+## Paso 1: Crear cuenta en Vercel
+1. Ve a [vercel.com](https://vercel.com)
+2. Registrate con GitHub (es lo más fácil)
+3. Conecta tu repositorio
+
+## Paso 2: Subir el código a GitHub
+
+
+---
+
+```bash
+git init
+```
+
+```
+C:\Users\Mariano\Desktop\newBalerina>
+```
+
+---
+
+```bash
+git add .
+```
+
+```
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/HT.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/HU.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/ID.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/IE.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/IL.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/IM.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/IN.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/IQ.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/IR.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/IS.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/IT.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/JE.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/JM.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/JO.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/JP.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/KE.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/KG.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/KH.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/KI.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/KM.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/KN.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/KP.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/KR.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/KW.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/KY.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/KZ.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/LA.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/LB.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/LC.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/LI.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/LK.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/LR.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/LS.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/LT.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/LU.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/LV.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/LY.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MA.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MC.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MD.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/ME.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MG.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MH.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MK.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/ML.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MM.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MN.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MO.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MP.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MQ.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MR.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MS.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MT.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MU.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MV.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MW.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MX.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MY.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/MZ.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/NA.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/NC.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/NE.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/NF.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/NG.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/NI.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/NL.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/NO.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/NP.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/NR.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/NU.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/NZ.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/OM.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/PA.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/PE.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/PF.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/PG.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/PH.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/PK.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/PL.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/PM.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/PN.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/PR.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/PS.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/PT.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/PW.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/PY.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/QA.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/RE.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/RO.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/RS.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/RU.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/RW.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SA.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SB.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SC.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SD.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SE.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SG.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SH.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SI.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SK.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SL.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SM.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SN.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SO.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SR.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/ST.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SV.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SY.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/SZ.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/TC.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/TD.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/TG.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/TH.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/TJ.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/TL.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/TM.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/TN.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/TO.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/TR.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/TT.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/TV.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/TW.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/TZ.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/UA.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/UG.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/US.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/UY.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/UZ.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/VA.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/VC.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/VE.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/VG.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/VI.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/VN.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/VU.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/WF.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/WS.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/YE.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/YT.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/ZA.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/ZM.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/ZW.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/alt-af.js', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/alt-an.js', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/alt-as.js', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/alt-eu.js', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/alt-na.js', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/alt-oc.js', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/alt-sa.js', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/data/regions/alt-ww.js', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/dist/lib/statuses.js', LF will be replaced by CRL
+F the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/dist/lib/supported.js', LF will be replaced by CR
+LF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/dist/unpacker/agents.js', LF will be replaced by 
+CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/dist/unpacker/browserVersions.js', LF will be rep
+laced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/dist/unpacker/browsers.js', LF will be replaced b
+y CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/dist/unpacker/feature.js', LF will be replaced by
+ CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/dist/unpacker/features.js', LF will be replaced b
+y CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/dist/unpacker/index.js', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/dist/unpacker/region.js', LF will be replaced by 
+CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/caniuse-lite/package.json', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'node_modules/convert-source-map/LICENSE', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/convert-source-map/README.md', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'node_modules/convert-source-map/index.js', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'node_modules/convert-source-map/package.json', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/debug/LICENSE', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'node_modules/debug/README.md', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'node_modules/debug/package.json', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/debug/src/browser.js', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/debug/src/common.js', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/debug/src/index.js', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/debug/src/node.js', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'node_modules/electron-to-chromium/LICENSE', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'node_modules/electron-to-chromium/README.md', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'node_modules/electron-to-chromium/chromium-versions.js', LF will be replace
+d by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/electron-to-chromium/full-chromium-versions.js', LF will be re
+placed by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/electron-to-chromium/full-versions.js', LF will be replaced by
+ CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/electron-to-chromium/index.js', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'node_modules/electron-to-chromium/package.json', LF will be replaced by CRL
+F the next time Git touches it
+warning: in the working copy of 'node_modules/electron-to-chromium/versions.js', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'node_modules/esbuild/LICENSE.md', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/esbuild/README.md', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'node_modules/esbuild/bin/esbuild', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/esbuild/install.js', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/esbuild/lib/main.d.ts', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/esbuild/lib/main.js', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/esbuild/package.json', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/escalade/dist/index.js', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/escalade/dist/index.mjs', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/escalade/index.d.mts', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/escalade/index.d.ts', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/escalade/license', LF will be replaced by CRLF the next time G
+it touches it
+warning: in the working copy of 'node_modules/escalade/package.json', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/escalade/readme.md', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/escalade/sync/index.d.mts', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'node_modules/escalade/sync/index.d.ts', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/escalade/sync/index.js', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/escalade/sync/index.mjs', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/gensync/LICENSE', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'node_modules/gensync/README.md', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'node_modules/gensync/index.js', LF will be replaced by CRLF the next time G
+it touches it
+warning: in the working copy of 'node_modules/gensync/index.js.flow', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/gensync/package.json', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/gensync/test/.babelrc', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/gensync/test/index.test.js', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/js-tokens/CHANGELOG.md', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/js-tokens/LICENSE', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'node_modules/js-tokens/README.md', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/js-tokens/index.js', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/js-tokens/package.json', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/jsesc/LICENSE-MIT.txt', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/jsesc/README.md', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'node_modules/jsesc/bin/jsesc', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'node_modules/jsesc/jsesc.js', LF will be replaced by CRLF the next time Git
+ touches it
+warning: in the working copy of 'node_modules/jsesc/man/jsesc.1', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'node_modules/jsesc/package.json', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/json5/LICENSE.md', LF will be replaced by CRLF the next time G
+it touches it
+warning: in the working copy of 'node_modules/json5/README.md', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'node_modules/json5/dist/index.js', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/json5/dist/index.min.js', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/json5/dist/index.min.mjs', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/json5/dist/index.mjs', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/json5/lib/cli.js', LF will be replaced by CRLF the next time G
+it touches it
+warning: in the working copy of 'node_modules/json5/lib/index.d.ts', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/json5/lib/index.js', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/json5/lib/parse.d.ts', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/json5/lib/parse.js', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/json5/lib/register.js', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/json5/lib/require.js', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/json5/lib/stringify.d.ts', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/json5/lib/stringify.js', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/json5/lib/unicode.d.ts', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/json5/lib/unicode.js', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/json5/lib/util.d.ts', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/json5/lib/util.js', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'node_modules/json5/package.json', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/loose-envify/LICENSE', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/loose-envify/README.md', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/loose-envify/cli.js', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/loose-envify/custom.js', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/loose-envify/index.js', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/loose-envify/loose-envify.js', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'node_modules/loose-envify/package.json', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'node_modules/loose-envify/replace.js', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/lru-cache/LICENSE', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'node_modules/lru-cache/README.md', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/lru-cache/index.js', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/lru-cache/package.json', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/ms/index.js', LF will be replaced by CRLF the next time Git to
+uches it
+warning: in the working copy of 'node_modules/ms/license.md', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'node_modules/ms/package.json', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'node_modules/ms/readme.md', LF will be replaced by CRLF the next time Git t
+ouches it
+warning: in the working copy of 'node_modules/nanoid/LICENSE', LF will be replaced by CRLF the next time Git
+ touches it
+warning: in the working copy of 'node_modules/nanoid/README.md', LF will be replaced by CRLF the next time G
+it touches it
+warning: in the working copy of 'node_modules/nanoid/async/index.browser.cjs', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'node_modules/nanoid/async/index.browser.js', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'node_modules/nanoid/async/index.cjs', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/nanoid/async/index.d.ts', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/nanoid/async/index.js', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/nanoid/async/index.native.js', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'node_modules/nanoid/async/package.json', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'node_modules/nanoid/bin/nanoid.cjs', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/nanoid/index.browser.cjs', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/nanoid/index.browser.js', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/nanoid/index.cjs', LF will be replaced by CRLF the next time G
+it touches it
+warning: in the working copy of 'node_modules/nanoid/index.d.cts', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/nanoid/index.d.ts', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'node_modules/nanoid/index.js', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'node_modules/nanoid/non-secure/index.cjs', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'node_modules/nanoid/non-secure/index.d.ts', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'node_modules/nanoid/non-secure/index.js', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/nanoid/non-secure/package.json', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'node_modules/nanoid/package.json', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/nanoid/url-alphabet/index.cjs', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'node_modules/nanoid/url-alphabet/index.js', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'node_modules/nanoid/url-alphabet/package.json', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'node_modules/node-releases/LICENSE', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/node-releases/README.md', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/node-releases/package.json', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/picocolors/LICENSE', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/picocolors/README.md', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/picocolors/package.json', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/picocolors/picocolors.browser.js', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'node_modules/picocolors/picocolors.d.ts', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/picocolors/picocolors.js', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/picocolors/types.d.ts', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/postcss/LICENSE', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'node_modules/postcss/README.md', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/at-rule.d.ts', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/at-rule.js', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/comment.d.ts', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/comment.js', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/container.d.ts', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/container.js', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/css-syntax-error.d.ts', LF will be replaced by CRL
+F the next time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/css-syntax-error.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/declaration.d.ts', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/declaration.js', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/document.d.ts', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/document.js', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/fromJSON.d.ts', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/fromJSON.js', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/input.d.ts', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/input.js', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/lazy-result.d.ts', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/lazy-result.js', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/list.d.ts', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/list.js', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/map-generator.js', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/no-work-result.d.ts', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/no-work-result.js', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/node.d.ts', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/node.js', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/parse.d.ts', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/parse.js', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/parser.js', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/postcss.d.mts', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/postcss.d.ts', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/postcss.js', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/postcss.mjs', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/previous-map.d.ts', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/previous-map.js', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/processor.d.ts', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/processor.js', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/result.d.ts', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/result.js', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/root.d.ts', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/root.js', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/rule.d.ts', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/rule.js', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/stringifier.d.ts', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/stringifier.js', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/stringify.d.ts', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/stringify.js', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/symbols.js', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/terminal-highlight.js', LF will be replaced by CRL
+F the next time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/tokenize.js', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/warn-once.js', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/warning.d.ts', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/postcss/lib/warning.js', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/postcss/package.json', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/react-dom/LICENSE', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'node_modules/react-dom/README.md', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js',
+ LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.j
+s', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js', LF
+ will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js',
+ LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/cjs/react-dom-server.browser.development.js', LF wil
+l be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/cjs/react-dom-server.browser.production.min.js', LF 
+will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/cjs/react-dom-server.node.development.js', LF will b
+e replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/cjs/react-dom-server.node.production.min.js', LF wil
+l be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/cjs/react-dom-test-utils.development.js', LF will be
+ replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/cjs/react-dom-test-utils.production.min.js', LF will
+ be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/cjs/react-dom.development.js', LF will be replaced b
+y CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/cjs/react-dom.production.min.js', LF will be replace
+d by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/cjs/react-dom.profiling.min.js', LF will be replaced
+ by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/client.js', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/react-dom/index.js', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/react-dom/package.json', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/react-dom/profiling.js', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/react-dom/server.browser.js', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/server.js', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/react-dom/server.node.js', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/react-dom/test-utils.js', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/react-dom/umd/react-dom-server-legacy.browser.development.js',
+ LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/umd/react-dom-server-legacy.browser.production.min.j
+s', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/umd/react-dom-server.browser.development.js', LF wil
+l be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/umd/react-dom-server.browser.production.min.js', LF 
+will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/umd/react-dom-test-utils.development.js', LF will be
+ replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/umd/react-dom-test-utils.production.min.js', LF will
+ be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/umd/react-dom.development.js', LF will be replaced b
+y CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/umd/react-dom.production.min.js', LF will be replace
+d by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-dom/umd/react-dom.profiling.min.js', LF will be replaced
+ by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-refresh/LICENSE', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/react-refresh/README.md', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/react-refresh/babel.js', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/react-refresh/cjs/react-refresh-babel.development.js', LF will
+ be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-refresh/cjs/react-refresh-babel.production.js', LF will 
+be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-refresh/cjs/react-refresh-runtime.development.js', LF wi
+ll be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-refresh/cjs/react-refresh-runtime.production.js', LF wil
+l be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react-refresh/package.json', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/react-refresh/runtime.js', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/react/LICENSE', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'node_modules/react/README.md', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'node_modules/react/cjs/react-jsx-dev-runtime.development.js', LF will be re
+placed by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react/cjs/react-jsx-dev-runtime.production.min.js', LF will be
+ replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react/cjs/react-jsx-dev-runtime.profiling.min.js', LF will be 
+replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react/cjs/react-jsx-runtime.development.js', LF will be replac
+ed by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react/cjs/react-jsx-runtime.production.min.js', LF will be rep
+laced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react/cjs/react-jsx-runtime.profiling.min.js', LF will be repl
+aced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react/cjs/react.development.js', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'node_modules/react/cjs/react.production.min.js', LF will be replaced by CRL
+F the next time Git touches it
+warning: in the working copy of 'node_modules/react/cjs/react.shared-subset.development.js', LF will be repl
+aced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react/cjs/react.shared-subset.production.min.js', LF will be r
+eplaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/react/index.js', LF will be replaced by CRLF the next time Git
+ touches it
+warning: in the working copy of 'node_modules/react/jsx-dev-runtime.js', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/react/jsx-runtime.js', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/react/package.json', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/react/react.shared-subset.js', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'node_modules/react/umd/react.development.js', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'node_modules/react/umd/react.production.min.js', LF will be replaced by CRL
+F the next time Git touches it
+warning: in the working copy of 'node_modules/react/umd/react.profiling.min.js', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'node_modules/rollup/LICENSE.md', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'node_modules/rollup/README.md', LF will be replaced by CRLF the next time G
+it touches it
+warning: in the working copy of 'node_modules/rollup/dist/bin/rollup', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/es/getLogFilter.js', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/es/rollup.js', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/es/shared/node-entry.js', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/es/shared/watch.js', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/getLogFilter.d.ts', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/getLogFilter.js', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/loadConfigFile.d.ts', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/loadConfigFile.js', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/rollup.d.ts', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/rollup.js', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/shared/fsevents-importer.js', LF will be replaced 
+by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/shared/index.js', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/shared/loadConfigFile.js', LF will be replaced by 
+CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/shared/rollup.js', LF will be replaced by CRLF the
+ next time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/shared/watch-cli.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/shared/watch-proxy.js', LF will be replaced by CRL
+F the next time Git touches it
+warning: in the working copy of 'node_modules/rollup/dist/shared/watch.js', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'node_modules/rollup/package.json', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/scheduler/LICENSE', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'node_modules/scheduler/README.md', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/scheduler/cjs/scheduler-unstable_mock.development.js', LF will
+ be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/scheduler/cjs/scheduler-unstable_mock.production.min.js', LF w
+ill be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/scheduler/cjs/scheduler-unstable_post_task.development.js', LF
+ will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/scheduler/cjs/scheduler-unstable_post_task.production.min.js',
+ LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/scheduler/cjs/scheduler.development.js', LF will be replaced b
+y CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/scheduler/cjs/scheduler.production.min.js', LF will be replace
+d by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/scheduler/index.js', LF will be replaced by CRLF the next time
+ Git touches it
+warning: in the working copy of 'node_modules/scheduler/package.json', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'node_modules/scheduler/umd/scheduler-unstable_mock.development.js', LF will
+ be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/scheduler/umd/scheduler-unstable_mock.production.min.js', LF w
+ill be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/scheduler/umd/scheduler.development.js', LF will be replaced b
+y CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/scheduler/umd/scheduler.production.min.js', LF will be replace
+d by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/scheduler/umd/scheduler.profiling.min.js', LF will be replaced
+ by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/scheduler/unstable_mock.js', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/scheduler/unstable_post_task.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/semver/LICENSE', LF will be replaced by CRLF the next time Git
+ touches it
+warning: in the working copy of 'node_modules/semver/README.md', LF will be replaced by CRLF the next time G
+it touches it
+warning: in the working copy of 'node_modules/semver/bin/semver.js', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/semver/package.json', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/semver/range.bnf', LF will be replaced by CRLF the next time G
+it touches it
+warning: in the working copy of 'node_modules/semver/semver.js', LF will be replaced by CRLF the next time G
+it touches it
+warning: in the working copy of 'node_modules/source-map-js/LICENSE', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/source-map-js/README.md', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/lib/array-set.js', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/lib/base64-vlq.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/lib/base64.js', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/lib/binary-search.js', LF will be replaced by CR
+LF the next time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/lib/mapping-list.js', LF will be replaced by CRL
+F the next time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/lib/quick-sort.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/lib/source-map-consumer.d.ts', LF will be replac
+ed by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/lib/source-map-consumer.js', LF will be replaced
+ by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/lib/source-map-generator.d.ts', LF will be repla
+ced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/lib/source-map-generator.js', LF will be replace
+d by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/lib/source-node.d.ts', LF will be replaced by CR
+LF the next time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/lib/source-node.js', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/lib/util.js', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/package.json', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/source-map.d.ts', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'node_modules/source-map-js/source-map.js', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'node_modules/update-browserslist-db/LICENSE', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'node_modules/update-browserslist-db/README.md', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'node_modules/update-browserslist-db/check-npm-version.js', LF will be repla
+ced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/update-browserslist-db/cli.js', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'node_modules/update-browserslist-db/index.d.ts', LF will be replaced by CRL
+F the next time Git touches it
+warning: in the working copy of 'node_modules/update-browserslist-db/index.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/update-browserslist-db/package.json', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'node_modules/update-browserslist-db/utils.js', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/vite/LICENSE.md', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'node_modules/vite/README.md', LF will be replaced by CRLF the next time Git
+ touches it
+warning: in the working copy of 'node_modules/vite/bin/openChrome.applescript', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'node_modules/vite/bin/vite.js', LF will be replaced by CRLF the next time G
+it touches it
+warning: in the working copy of 'node_modules/vite/client.d.ts', LF will be replaced by CRLF the next time G
+it touches it
+warning: in the working copy of 'node_modules/vite/dist/client/client.mjs', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'node_modules/vite/dist/client/env.mjs', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/vite/dist/node-cjs/publicUtils.cjs', LF will be replaced by CR
+LF the next time Git touches it
+warning: in the working copy of 'node_modules/vite/dist/node/chunks/dep-7ec6f216.js', LF will be replaced by
+ CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/vite/dist/node/chunks/dep-827b23df.js', LF will be replaced by
+ CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/vite/dist/node/chunks/dep-c423598f.js', LF will be replaced by
+ CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/vite/dist/node/chunks/dep-f0c7dae0.js', LF will be replaced by
+ CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/vite/dist/node/chunks/dep-f1e8587f.js', LF will be replaced by
+ CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/vite/dist/node/cli.js', LF will be replaced by CRLF the next t
+ime Git touches it
+warning: in the working copy of 'node_modules/vite/dist/node/constants.js', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'node_modules/vite/dist/node/index.js', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/vite/index.cjs', LF will be replaced by CRLF the next time Git
+ touches it
+warning: in the working copy of 'node_modules/vite/package.json', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'node_modules/vite/types/customEvent.d.ts', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'node_modules/vite/types/hmrPayload.d.ts', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/vite/types/hot.d.ts', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/vite/types/importGlob.d.ts', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/vite/types/importMeta.d.ts', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'node_modules/vite/types/metadata.d.ts', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'node_modules/vite/types/package.json', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'node_modules/yallist/LICENSE', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'node_modules/yallist/README.md', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'node_modules/yallist/iterator.js', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'node_modules/yallist/package.json', LF will be replaced by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'node_modules/yallist/yallist.js', LF will be replaced by CRLF the next time
+ Git touches it
+
+C:\Users\Mariano\Desktop\newBalerina>
+```
+
+---
+
+```diff
+- 
++ node_modules/
++ dist/
++ .env
++ .env.local
++ .DS_Store
++ *.log 
+```
+
+---
+
+```bash
+git add .
+```
+
+---
+
+
+
+
+---
+
+_**User**_
+
+para antes de que te vuelvas loco....yo tengo cuenta en vercel y github, abnca jajajjaja
+
+---
+
+_**Assistant**_
+
+¡Jajaja, perfecto! Eso lo hace mucho más fácil y rápido.  
+Te dejo los pasos resumidos para que lo subas y deployees en Vercel en menos de 2 minutos:
+
+---
+
+### 1. Sube tu proyecto a GitHub
+
+1. Crea un nuevo repositorio en GitHub (puede ser privado o público).
+2. En tu terminal, ejecuta:
+   ```bash
+   git remote add origin https://github.com/TU_USUARIO/TU_REPO.git
+   git commit -m "primer deploy"
+   git push -u origin master
+   ```
+   (Si te da error con `master`, probá con `main` en vez de `master`).
+
+---
+
+### 2. Deploy en Vercel
+
+1. Ve a [vercel.com/dashboard](https://vercel.com/dashboard).
+2. Haz click en **"Add New Project"**.
+3. Selecciona el repo que subiste recién.
+4. Vercel detecta automáticamente que es un proyecto Vite/React, solo dale a **"Deploy"**.
+5. Espera unos segundos y te da la URL pública.
+
+---
+
+¡Listo!  
+Si te traba algún paso, decime el error o el paso exacto y te ayudo a resolverlo al toque.  
+¿Querés que te ayude a personalizar el dominio, el README o algo más para el deploy?
+
+---
+
+_**User**_
+
+sin querer estoy apuntando a un repo qeu aun no se creo en mi github, quiero volver para atras y poder apuntar atrivia
+
+---
+
+_**Assistant**_
+
+¡No hay problema! Para cambiar el repositorio remoto de tu proyecto y apuntar al repo correcto (por ejemplo, uno llamado `atrivia`), solo seguí estos pasos en tu terminal:
+
+1. **Elimina el remoto anterior (si existe):**
+   ```bash
+   git remote remove origin
+   ```
+
+2. **Agrega el nuevo remoto apuntando a tu repo `atrivia`:**
+   ```bash
+   git remote add origin https://github.com/TU_USUARIO/atrivia.git
+   ```
+
+3. **Sube tu código al nuevo repo:**
+   ```bash
+   git push -u origin main
+   ```
+   (Si tu rama se llama `master`, usá `master` en vez de `main`).
+
+---
+
+¡Listo! Ahora tu proyecto va a estar vinculado al repo correcto y podés deployar en Vercel sin problemas.
+
+¿Querés que te ayude con algún comando más o con la configuración de Vercel?
+
+---
+
+_**User**_
+
+rompio esto en vercel al deployear sh: line 1: /vercel/path0/node_modules/.bin/vite: Permission denied
+Error: Command "npm run build" exited with 126
+Exiting build container
+
+---
+
+_**Assistant**_
+
+¡Ese error es común en Vercel! Es un problema de permisos con Vite. Te lo soluciono en 30 segundos:
+
+## Solución rápida
+
+Agrega este archivo `vercel.json` en la raíz de tu proyecto:
+
+
+---
+
+```diff
+- 
++ {
++   "buildCommand": "npm run build",
++   "outputDirectory": "dist",
++   "framework": "vite",
++   "installCommand": "npm install"
++ } 
+```
+
+---
+
+Ahora:
+
+1. **Sube el cambio a GitHub:**
+   ```bash
+   git add vercel.json
+   git commit -m "fix vercel build"
+   git push
+   ```
+
+2. **En Vercel, redeployea** (o espera que se redeployee automáticamente).
+
+---
+
+**Alternativa si sigue fallando:**
+Cambia el `package.json` para usar `npm run build` en vez de `vite build`:
+
+```json
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+}
+```
+
+¡Probá y decime si se solucionó!
+
+---
+
+_**User**_
+
+ahora d esto sh: line 1: /vercel/path0/node_modules/.bin/vite: Permission denied
+Error: Command "npm run build" exited with 126
+
+---
+
+_**Assistant**_
+
 
 
 ---
