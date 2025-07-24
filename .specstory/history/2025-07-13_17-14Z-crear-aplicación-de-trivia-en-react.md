@@ -4180,7 +4180,19 @@ Ahora tienes bloques extendidos de preguntas para las tres categorías:
 Cada una con decenas de preguntas variadas, realistas y con imágenes asociadas.  
 **Ya puedes elegir 10, 20, 30, o muchas más preguntas y siempre tendrás la cantidad exacta!**
 
-¿Quieres probar la app y ver si cumple
+¿Quieres probar la app y ver si cumple con lo que buscabas? ¿O necesitas que agregue alguna funcionalidad o ajuste más?
+
+---
+
+_**User**_
+
+cuando yo elijo 30 preguntas solo me da 20
+
+---
+
+_**Assistant**_
+
+
 
 ---
 
